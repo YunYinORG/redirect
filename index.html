@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="refresh" content="5; url=http://print.yunyin.org" />
+    <title>云印南天</title>
+    <script>
+        function IsMobile() {
+            var userAgentInfo = navigator.userAgent;
+            var Agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"];
+            for (var v = 0; v < Agents.length; v++) {
+                if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                    return true;
+                }
+            }
+            return false;
+        }
+        if(IsMobile()){
+            location.href='http://print.yunyin.org';
+        }
+    </script>
+    <style>
+        html,
+        body {
+            margin: 0;
+            border: 0;
+            padding: 0;
+            width: 100%;
+            height: 99%;
+            background-color: #5eb5c9;
+            color: #eee;
+            text-align: center;
+        }
+
+        a {
+            color: wheat;
+            text-decoration: none;
+        }
+
+        footer {
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            position: sticky;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>云印南天</h1>
+    <a href="http://print.yunyin.org" title="点击使用云印服务">
+        <img src="http://www.yunyin.org/assets/image/logo.png" alt="云印南天">
+    </a>
+    <footer>
+        <a href="http://www.yunyin.org"> ©云印南天</a> |
+        <a href="https://github.com/YunYinORG/">GitHub</a> |
+        <a href="http://www.miitbeian.gov.cn"> 津ICP备15000043号-3</a>
+
+    </footer>
+</body>
+
+</html>
